@@ -1,0 +1,95 @@
+body{
+		padding:0px;
+		margin:0px;
+		font-family:"Baloo Da 2";
+		}
+.top{
+		padding:5px;
+		background-color:#dbdbdb;
+		display:flex;
+		justify-content:space-between;
+		}
+.right,.left{
+		display:flex;
+		align-content:center;
+		}
+.cov,.ham,.reg{
+		padding:8px;
+		align-self:center;
+		font-size:24px;
+	 }
+.aa,.bb,.cc,.dd{
+		padding:10px;
+		text-align:center;
+		border-bottom:1px solid #dbdbdb;
+		}
+#open,.open1,.open2{
+		text-align:center;
+		width:0px;
+		height:0px;
+		overflow:hidden;
+		transition:height 1s ease;
+		}
+a:link{
+		color:black;
+		text-decoration:none;
+		}
+a:hover{
+		text-decoration: underline;
+		}		
+.topic,.find{
+		font-size:30px;
+		padding:10px;
+		text-align:center;
+		text-decoration:underline;
+		}		
+.find{
+		text-decoration:none;
+		font-size:20px;
+		}		
+form{
+		background-color:#dbdbdb;
+		width:85%;
+		margin:3pc auto;
+		border:2px double #aeaeae;
+		}
+.one{
+		display:flex;
+		margin:auto;
+		}
+.year{
+		width:35%;
+		text-align:center;
+		line-height:40px;
+		paddin:10px;
+		border:1px solid #aeaeae;
+		}
+label[for = "year"]{
+		paddin:10px;
+		}
+input[type="number"],input[type="text"]{
+		padding:10px;
+		}
+input[type="submit"]{
+		display:block;
+		margin:auto;
+		padding:10px;
+		border-radius:10px;
+		border:2px double #aeaeae;
+		}
+.two{
+		widt:30%;
+		margin:2pc auto;
+		}
+.answer{
+		text-align:center;
+		}
+
+		
+
+@media(min-width:768px){
+form{
+		width:30%;
+		}		
+	}
+
